@@ -1,0 +1,452 @@
+.visual{
+  width: auto !important;
+  padding-top: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+.visual h4{
+  font-size: 30px
+}
+.visual h5 span{
+  font-weight: 700;
+}
+.visual p{
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+/*@media (min-width:768px) {
+
+}*/
+/*##################body#######################*/
+
+body{
+  background-color: #eef1f6;
+  font-family: "Open Sans",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  color: #535d74 !important;
+}
+
+a{
+  cursor: pointer;
+}
+
+
+/*####################END BODY###################*/
+
+
+/*########################LOGO#####################*/
+/*.logo{
+  font-size: 1.7rem;
+}
+.logo{
+  position: relative;
+}
+.logo::before {
+  position: absolute;
+  top: 0px;
+  left: -45px;
+  content: "E - ";
+  color: #00BACF;
+  }*/
+
+
+
+/*##########################ENDLOGO####################*/
+
+
+
+
+/*##################NAVBAR##################*/
+.navbar{
+  margin-top: -23px;
+  padding: 20px 50px;
+}
+.navbar-inverse .navbar-toggler{
+  margin-top: 15px !important;
+}
+
+/*##################END NAV####################*/
+
+/*#####################SLIDER#####################*/
+
+.bg{
+  width: 256px;
+  height: 256px;
+}
+.bg .bg_body img{
+  /*margin-top: 50%;*/
+  /*transform: translateY(-128px);*/
+  width: 256px;
+  height: 256px;
+}
+
+.flickerplate .dot-navigation .dot{
+  border-radius: 0;
+  width: 45px;
+  height: 3px;
+  /*background-color: #000;
+  opacity: 0.3;*/
+}
+/*.flickerplate .dot-navigation .dot.active{
+  background-color: #000;
+  opacity: 1;
+}
+.flick-title,.flickerplate ul.flicks li .flick-sub-text{
+  color: #000;
+  position: relative;
+  z-index: 2;
+}*/
+
+/*.center_ver{
+  height: 256px;
+}*/
+
+.hei{
+  margin-top: 75px;
+  /*transform: translateY(-128px);*/
+}
+
+/*.flickerplate .arrow-navigation.left .arrow{
+  background: url("img/arrowleft.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.flickerplate .arrow-navigation.right .arrow{
+  background: url("img/arrowright.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}*/
+.flicker{
+  background-color: #041422 !important;
+}
+.flickerplate li{
+  position: relative;
+}
+.flickerplate{
+  height: 400px;
+}
+.flickerplate li .flicker_content{
+  /*position: absolute;*/
+  /*height: 500px;*/
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 3) and (max-width: 1080px), screen and (max-width: 700px){
+  .center_ver{
+  height: auto !important;
+  }
+  .hie{
+  margin-top: 0;
+  }
+  .center_ver .flick-title{
+    text-align: center;
+  }
+}
+
+/*@media only screen and (max-width: 670px) and (min-width: 400px) {
+  .flicker_content{
+    top: 55% !important;
+  }
+  .center_ver{
+  height: 10px !important;
+  }
+  .hie{
+  margin-top: 0;
+}
+}*/
+@media only screen and (max-width: 991px) {
+  .hei{
+    margin-top: 0;
+  }
+  .center_ver .flick-title,.flickerplate ul.flicks li .flick-sub-text{
+    text-align: center;
+  }
+}
+
+
+/*####################END SLIDER#####################*/
+
+
+
+
+
+
+
+
+/*##########################TYPE##########################*/
+
+.head{
+  margin-bottom: 25px;
+  margin-top: 75px;
+}
+.type .card{
+  background-color: #FFF;
+  box-shadow: none;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+}
+.type .card:hover{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+
+
+/*##########################ENDTYPE##########################*/
+
+
+/** [Fonts] *****/
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+/** [Vars] *****/
+/** [Panels] *****/
+/** [Buttons] *****/
+/** [Content] *****/
+/** [Base styling] *****/
+
+
+/** [Main Styling] *****/
+    .panel {
+    /*font-family: 'Montserrat';*/
+    border-radius: 3px;
+    }
+    .panel--static {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+    min-height: 300px;
+    /*background: rgba(0, 0, 0, 0.6);*/
+    /*color: #ddd;*/
+    }
+    .panel--static .panel__content {
+    padding: 4rem;
+    }
+    .panel--sliding {
+    position: absolute;
+    top: -5%;
+    left: 4%;
+    width: 50%;
+    /*min-height: 110%;*/
+    background: #fefefe;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    }
+    .panel--sliding .panel__content.login {
+    display: none;
+    }
+    .footer-lead{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+@media only screen and (max-width: 768px){
+    .panel--static {
+    position: static;
+    transform: translate(0,0);
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .ll,.rr{
+    padding: 15px !important;
+    width: 100%;
+    display: block;
+    }
+    .ll{
+    display: none;
+    }
+    .ll button,.rr button{
+    width: 100%;
+    }
+    .panel__copy,.panel__heading{
+    display: none;
+    }
+    .panel--sliding{
+    display: block;
+    }
+    .panel--sliding {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fefefe;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    }
+    .footer-lead{
+    position: static;
+    transform: translateX(0);
+    margin-top: 20px;
+  }
+
+
+}
+@media only screen and (max-width: 991px){
+  body .page-wrapper{
+    /*width: 100%;*/
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .bg .bg_body img{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 567px){
+  .bg{
+    margin-left: 50px;
+  }
+}
+
+
+.page-title a{
+  color: #64C235;
+}
+
+.dashboard-stat{
+  border-radius: 3px !important;
+}
+
+
+/*##############################CREATE PAGE###########################*/
+
+.signup .card{
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: none;
+}
+
+.btn-green{
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-green:hover{
+  color: #fff;
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.form-group .required{
+  color: #535d74;
+}
+label,.form-group .required{
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.will{
+  padding: 0 6px;
+  border-left: 4px solid #e3e3e3;
+  background-color: #fbfcfc;
+  margin-bottom: 5px;
+}
+
+.will p{
+  font-size: 14px;
+}
+
+.input-voter,#newinput{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/*##############################END CREATE PAGE###########################*/
+
+
+
+
+/*##############################VOTE PAGE###########################*/
+.dashboard-stat {
+  background-color: #FFF;
+}
+.dashboard-stat label h4{
+  cursor: pointer;
+  margin-bottom: -5px;
+}
+.ptengan{
+  padding: 10px;
+}
+.big input[name=chb] {
+    display:none;
+}
+.big input[type="radio"]:checked + .dashboard-stat {
+    background-color:#D1D1D1;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.cv a {
+  font-size: 15px;
+}
+
+/*##############################End VOTE PAGE###########################*/
+
+
+
+/*##############################Camera PAGE###########################*/
+
+/*video{
+   -moz-transform:scale(2);
+   -webkit-transform:scale(2);
+   -o-transform:scale(2);
+   -ms-transform:scale(2);
+   transform:scale(2);
+}
+
+#results{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+#results img{
+  width: 50px;
+  height: 50px;
+}*/
+.error{
+  color: #e74c3c;
+}
+.vid{
+  width: 100%;
+  height: 240px;
+  position: relative;
+}
+.vid video{
+  margin-left:100px;
+
+}
+.vid canvas{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  margin-left:100px;
+}
+/*img {
+  max-width: 100%; /* This rule is very important, please do not ignore this! */
+/*}*/
+
+
+/*##############################End Camera PAGE###########################*/

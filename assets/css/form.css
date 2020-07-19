@@ -1,0 +1,16 @@
+.form-group label.required::after {
+  content: '*';
+  display: inline-block;
+  color: #d9534f;
+  margin-left: 5px;
+  position: relative;
+  top: -2px;
+  font-size: .8em;
+}
+
+.lead{
+  margin: 20px 0;
+}
+.card{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}

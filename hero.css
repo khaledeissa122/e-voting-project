@@ -1,0 +1,177 @@
+/*@media (min-width:768px) {
+
+}*/
+/*##################body#######################*/
+
+body{
+  background-color: #eef1f6;
+  font-family: "Open Sans",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857;
+  color: #535d74 !important;
+}
+
+a{
+  cursor: pointer;
+}
+
+
+/*####################END BODY###################*/
+
+
+/*########################LOGO#####################*/
+.logo{
+  font-size: 1.7rem;
+}
+.logo{
+  position: relative;
+}
+.logo::before {
+  position: absolute;
+  top: 0px;
+  left: -45px;
+  content: "E - ";
+  color: #00BACF;
+  }
+
+
+
+/*##########################ENDLOGO####################*/
+
+
+
+
+/*##################NAVBAR##################*/
+.navbar{
+  margin-top: -23px;
+}
+.navbar-inverse .navbar-toggler{
+  margin-top: 15px !important;
+}
+
+/*##################END NAV####################*/
+
+/*#####################SLIDER#####################*/
+
+.bg{
+  width: 256px;
+  height: 256px;
+}
+.bg .bg_body img{
+  /*margin-top: 50%;*/
+  /*transform: translateY(-128px);*/
+  width: 256px;
+  height: 256px;
+}
+
+.flickerplate .dot-navigation .dot{
+  border-radius: 0;
+  width: 45px;
+  height: 3px;
+  /*background-color: #000;
+  opacity: 0.3;*/
+}
+/*.flickerplate .dot-navigation .dot.active{
+  background-color: #000;
+  opacity: 1;
+}
+.flick-title,.flickerplate ul.flicks li .flick-sub-text{
+  color: #000;
+  position: relative;
+  z-index: 2;
+}*/
+
+.center_ver{
+  height: 256px;
+}
+
+.hei{
+  margin-top: 45px;
+  /*transform: translateY(-128px);*/
+}
+
+/*.flickerplate .arrow-navigation.left .arrow{
+  background: url("img/arrowleft.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.flickerplate .arrow-navigation.right .arrow{
+  background: url("img/arrowright.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}*/
+.flicker{
+  background-color: #041422 !important;
+}
+.flickerplate li{
+  position: relative;
+}
+.flickerplate li .flicker_content{
+  /*position: absolute;*/
+  /*height: 500px;*/
+  width: 90%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 3) and (max-width: 1080px), screen and (max-width: 700px){
+  .center_ver{
+  height: auto !important;
+  }
+  .hie{
+  margin-top: 0;
+  }
+  .center_ver .flick-title{
+    text-align: center;
+  }
+}
+
+/*@media only screen and (max-width: 670px) and (min-width: 400px) {
+  .flicker_content{
+    top: 55% !important;
+  }
+  .center_ver{
+  height: 10px !important;
+  }
+  .hie{
+  margin-top: 0;
+}
+}*/
+@media only screen and (max-width: 991px) {
+  .hei{
+    margin-top: 0;
+  }
+  .center_ver .flick-title,.flickerplate ul.flicks li .flick-sub-text{
+    text-align: center;
+  }
+}
+
+
+/*####################END SLIDER#####################*/
+
+
+
+
+
+
+
+
+/*##########################TYPE##########################*/
+
+.head{
+  margin-bottom: 50px;
+}
+.type .card{
+  box-shadow: none;
+  transition: all 0.5s;
+  margin-bottom: 15px;
+}
+.type .card:hover{
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+}
+
+
+
+/*##########################ENDTYPE##########################*/
